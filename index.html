@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        figure {
+            margin: 15px;
+            border: 2px solid #ddd;
+            padding: 10px;
+            width: 250px;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Photo Gallery</h1>
+    <div class="gallery">
+        <figure>
+            <img src="A beautiful sunrise over the mountains.jpg" alt="A beautiful sunrise over the mountains." />
+            <figcaption>Sunrise in the Mountains</figcaption>
+        </figure>
+        <figure>
+            <img src="A calm lake surrounded by forest.jpg" alt="A calm lake surrounded by forest." />
+            <figcaption>Lake Surrounded by Forest</figcaption>
+        </figure>
+        <figure>
+            <img src="A vibrant cityscape at night.jpg" alt="A vibrant cityscape at night." />
+            <figcaption>Cityscape at Night</figcaption>
+        </figure>
+        <figure>
+            <img src="PurpleRose.jpg" alt="A Purple Rose." />
+            <figcaption>A Purple Rose</figcaption>
+        </figure>
+        <figure>
+            <img src="A snowy mountain peak.jpg" alt="A snowy mountain peak." />
+            <figcaption>Snowy Mountain Peak</figcaption>
+        </figure>
+        <figure>
+            <img src="Sunset at the Beach.jpg" alt="A beach during sunset." />
+            <figcaption>Sunset at the Beach</figcaption>
+        </figure>
+    </div>
+
+    <script src="gallery.js"></script>
+</body>
+</html>
